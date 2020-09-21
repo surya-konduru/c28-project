@@ -16,7 +16,7 @@ function setup() {
   engine = Engine.create();
   world = engine.world;
 
-  tree = new Tree(550, 280, 400, 450);
+  tree = new Tree(550, 280);
   boy.resize(100, 200);
   ground = new Ground(width / 2, height, width, 20);
   mango1 = new Mango(500, 200, 20, 20);
